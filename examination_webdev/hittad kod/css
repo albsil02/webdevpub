@@ -1,0 +1,13 @@
+https://stackoverflow.com/questions/40972889/how-to-move-image-in-div-with-css/40974018
+#OverviewText4 img:MoneyIcon.png {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+<div id="OverviewText4">
+  <img src="MoneyIcon.png" />
+</div>
+//klart
+
