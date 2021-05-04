@@ -20,6 +20,29 @@
       top:350px;
       left:300px;
   }
+  .redbull_bil{
+    position: absolute;
+    top:450px;
+    left:270px;
+  }
+  .mclaren_bakgrund{
+    position:absolute;
+    top:350px;
+    left:1040px;
+  }
+  .mclaren_bil{
+    position:absolute;
+    top:370px;
+    left:1040px;
+  }
+  .mercedes_Button{
+    position:absolute;
+    background-color:blue;
+    width: 600px;
+    height:80px;
+    top:650px;
+    left:500px;
+  }
   
 p{
     background-color: black;
