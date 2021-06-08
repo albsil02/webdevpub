@@ -37,11 +37,15 @@ body {
 @media screen and (max-width: 600px) {
     .navbar a:not(:first-child) {
         display: none;
+        
     }
-
+    .navbar a{
+        padding-left: 120px;
+    }
     .navbar a.icon {
         float: right;
         display: block;
+        
     }
 }
 

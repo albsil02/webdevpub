@@ -22,7 +22,7 @@ function pointSystem() {
         Redbull: {
             bil: "Redbull",
             bild: "https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png" ,
-            poäng: 149,
+            poäng: 174,
             id:"Redbull",
             placering:1,
             
@@ -38,36 +38,38 @@ function pointSystem() {
         McLaren: {
             bil: "McLaren",
             bild: "https://www.formula1.com/content/fom-website/en/teams/McLaren/jcr:content/teamCar.img.jpg",
-            poäng: 80,
+            poäng: 94,
             id:"McLaren",
             placering:3
         },
         Ferarri: {
             bil: "Ferarri",
             bild: "https://www.formula1.com/content/fom-website/en/teams/Ferrari/jcr:content/teamCar.img.jpg",
-            poäng: 78,
+            poäng: 92,
             id:"Ferarri",
             placering:4
         },
-        Alpine: {
-            bil: "Alpine",
-            bild: "https://www.formula1.com/content/fom-website/en/teams/Alpine/jcr:content/teamCar.img.jpg",
-            poäng: 16,
-            id:"Alpine",
+        
+        
+        AlphaTouri: {
+            bil: "AlphaTouri",
+            bild: "https://www.formula1.com/content/fom-website/en/teams/AlphaTauri/jcr:content/teamCar.img.jpg",
+            poäng: 39,
+            id:"AlphaTuori",
             placering:5
         },
         AstonMartin: {
             bil: "Aston Martin",
             bild: "https://www.formula1.com/content/fom-website/en/teams/Aston-Martin/jcr:content/teamCar.img.jpg",
-            poäng: 10,
+            poäng: 37,
             id:"AstonMartin",
             placering:6
         },
-        AlphaTouri: {
-            bil: "AlphaTouri",
-            bild: "https://www.formula1.com/content/fom-website/en/teams/AlphaTauri/jcr:content/teamCar.img.jpg",
-            poäng: 6,
-            id:"AlphaTuori",
+        Alpine: {
+            bil: "Alpine",
+            bild: "https://www.formula1.com/content/fom-website/en/teams/Alpine/jcr:content/teamCar.img.jpg",
+            poäng: 25,
+            id:"Alpine",
             placering:7
         },
         AlfaRomeo: {
