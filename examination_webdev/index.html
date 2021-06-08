@@ -5,8 +5,11 @@
     <link rel="stylesheet" href="css/base.css">
     </link>
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/drivers.css">
+    
     </link>
     <script src="js/base.js"></script>
+    <script src="js/drivers.js"></script>
     <script src="js/navbar.js"></script>
 </head>
 
@@ -17,11 +20,153 @@
 
     <div >
         <h2 id="text">Home</h2>
-         </div>
+        <p id="Standings">Standings</p>
+        </div>
 
-        <img src="https://www.formula1.com/content/dam/fom-website/Upgrade/PortugalManualUploads/Sunday/GettyImages-1315379304.jpg.transform/4col/image.jpg" alt="Bild på Leclere">
-     <img src="https://www.formula1.com/etc/designs/fom-website/images/fia_logo.png" id="fia_logo" width="50px" height="25px" >
-   
-</body>
+         
+         
+        
+         
+         
 
-</html>
+         <div class="driverContainer" id="driverContainer">  
+            <img src="https://www.formula1.com/content/dam/fom-website/2018-redesign-assets/homepage/driver-standings-component/MAXVER01.png.transform/4col/image.png" loading="lazy" class="Max" width="20%">
+            
+            
+              
+              <div class ="driverButton" id="Redbull" type="button" onclick="infoRedbull()">
+                  <div class="Placering" > 1</div>
+                  <div class="förare">Max Verstappen</div>
+                 <div class="bil">Redbull</div>
+                 <div class="poäng">Points 109</div>
+          </div>
+          <div class ="driverButton" id="Mercedes" type="button" onclick="infoMercedes()">
+            <div class="Placering" > 2</div>
+               <div class="Förare">Lewis Hamilton</div>
+               <div class="bil">Mercedes</div>
+               <div class="poäng">Points 105</div>
+               </div>
+  
+          <div class ="driverButton" id="McLaren" type="button" onclick="info()">
+              <div class="Placering" > 3</div>
+              <div class="Förare">Lando Norris</div>
+              <div class="bil">McLaren</div>
+              <div class="poäng">Points 69</div>
+          </div>
+          <div class ="driverButton" id="Mercedes" type="button" onclick="info()">
+          <div class="Placering" > 4</div>
+          <div class="Förare">Valteri Bottas</div>
+          <div class="bil">Mercedes</div>
+          <div class="poäng">Points 47</div>
+          </div>
+          
+         
+     
+  <div class ="driverButton" id="Redbull" type="button" onclick="info()">
+      <div class="Placering" > 5</div>
+      <div class="Förare">Sergio Perez</div>
+      <div class="bil">Redbull</div>
+      <div class="poäng">Points 44</div>
+  </div>
+  <div class ="driverButton" id="Ferarri" type="button" onclick="infoMercedes()">
+    <div class="Placering" > 6</div>
+    <div class="Förare">Charles Leclerc</div>
+    <div class="bil">Ferarri</div>
+     <div class ="poäng">Points 40</div>
+</div>
+<div class ="driverButton" id="Ferarri" type="button" onclick="info()">
+    <div class="Placering" > 7</div>
+    <div class="Förare">Carlos Sainz</div>
+    <div class="bil">Ferrari</div>
+    <div class="poäng">Points 38</div>
+</div>
+<div class ="driverButton" id="McLaren" type="button" onclick="info()">
+    <div class="Placering" > 8</div>
+    <div class="Förare">Daniel Ricciardo</div>
+    <div class="bil">McLaren</div>
+    <div class="poäng">Points 24 </div>
+</div>
+  <div class ="driverButton" id="AlphaTuori" type="button" onclick="info()">
+      <div class="Placering" > 9</div>
+      <div class="Förare">Pierre Gasly</div>
+      <div class="bil">AlphaTouri</div>
+      <div class="poäng">Points 16</div>
+  </div>
+  <div class ="driverButton" id="Alpine" type="button" onclick="info()">
+    
+    <div class="Placering" > 10</div>
+    <div class="Förare">Estaban Ocon</div>
+    <div class="bil">Alpine</div>
+    <div class="poäng">Points 12</div>
+</div>
+<div class ="driverButton" id="AstonMartin" type="button" onclick="info()">
+    <div class="Placering" > 11</div>
+    <div class="Förare">Sebastian Vettel</div>
+     <div class="bil">Aston Martin</div>
+    <div class="poäng">Points 10</div>
+</div>
+<div class ="driverButton" id="AstonMartin" type="button" onclick="infoMercedes()">
+    <div class="Placering" > 12</div>
+    <div class="Förare">Lance Stroll</div>
+    <div class="bil">Aston Martin</div>    
+    <div class ="poäng">Points </div>
+</div>
+  <div class ="driverButton" id="Alpine" type="button" onclick="info()">
+    <div class="Placering" > 13</div>
+    <div class="Förare">Fernando Alosno</div>
+    <div class="bil">Alpine</div>
+    <div class="poäng">Points 5 </div>
+</div>  
+    <div class ="driverButton" id="AlphaTuori" type="button" onclick="info()">
+        <div class="Placering" > 14</div>
+        <div class="Förare">Yuki Tsunoda</div>
+        <div class="bil">AlphaTouri</div>
+        <div class="poäng">Points 2 </div>
+    </div>
+    <div class ="driverButton" id="AlfaRomeo" type="button" onclick="info()">
+        <div class="Placering" > 15</div>
+        <div class="Förare">Antonio Givinazzi</div>
+        <div class="bil">Alfa Romeo</div>
+        <div class="poäng">Points 1 </div>
+    </div>
+    <div class ="driverButton" id="AlfaRomeo" type="button" onclick="info()">
+        <div class="Placering" > 16</div>
+        <div class="Förare">Kimi Räikkönen</div>
+        <div class="bil">Alfa Romeo</div>
+        <div class="poäng">Points 0 </div>
+    </div>
+    <div class ="driverButton" id="Williams" type="button" onclick="info()">
+        <div class="Placering" > 17</div>
+        <div class="Förare">George Russell</div>
+        <div class="bil">Williams</div>
+        <div class="poäng">Points 0 </div>
+    </div>
+    <div class ="driverButton" id="Williams" type="button" onclick="info()">
+        <div class="Placering" > 18</div>
+        <div class="Förare">Nicholas Latifi</div>
+        <div class="bil">Williams</div>
+        <div class="poäng">Points 0 </div>
+    </div>
+    <div class ="driverButton" id="Haas" type="button" onclick="info()">
+        <div class="Placering" > 19</div>
+        <div class="Förare">Mick Schumacher</div>
+        <div class="bil">Haas</div>
+        <div class="poäng">Points 0 </div>
+    </div>
+    <div class ="driverButton" id="Haas" type="button" onclick="info()">
+        <div class="Placering" > 20</div>
+        <div class="Förare">Nikita Mazepin</div>
+        <div class="bil">Haas</div>
+        <div class="poäng">Points 0 </div>
+    </div>
+    
+       
+  </div>
+  
+  
+      
+     
+ 
+ </body>
+ 
+ </html>

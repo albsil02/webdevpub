@@ -1,0 +1,28 @@
+.info{
+    width: 300px;
+  border: 20px solid rgb(106, 179, 247);
+  padding: 10%;
+  margin: 5%;
+  position:relative;
+  margin-top:50px;
+  
+  border-radius: 20px;
+  width:60%;
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+ 
+}
+.namn{
+  text-align: center;
+  font-size: 30px;
+  font-weight:bolder ;
+  margin-top: -10%;
+  
+}
+.förare{
+  font-weight: 900;
+  line-height: 2em;
+}
+
+

@@ -17,21 +17,90 @@
     </div>
 
     <div style="padding-bottom: 26px">
-        <h2>Test1</h2>
+        <h2>F1</h2>
         <p id="Standings">Standings</p>
         
-    </div>
-    <div  >
-        <img src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/teamCar.transform/3col/image.png" class="mercedes_bil">
-        <img src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/logo.transform/2col/image.png" class = "mercedes_bakgrund">
-        <img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/logo.transform/2col/image.png"class="redbull_bakgrund">
-        <img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png" class="redbull_bil">
-        <img src="https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/logo.transform/2col/image.png"class="mclaren_bakgrund">
-        <img src="https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/teamCar.transform/3col/image.png"class="mclaren_bil">
-
-    <div id="mercedes_Button"class="mercedes_Button">
         
     </div>
+    <div class="ledare">
+        <img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/logo.transform/2col/image.png"class="redbull_bakgrund">
+        <img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png" id ="ledarBil" onclick="drive()" value="Click" type="button" class="redbull_bil"alt="redbull_bil" >
+    </div>
+        
+        
+        
+       
+        
+      <div id="constructorContainer" class="constructorContainer">  
+          <!--
+            <div class ="constructorButton" id="Redbull" type="button" onclick="infoRedbull()">
+                <div class="Placering" > 1</div>
+                <div class="Bil">Redbull</div>
+                <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png" width="60%" alt="redbull_bil"></div>
+                <div id="redbullPoints" class="poäng">Points 139 </div>
+        </div>
+        <div class ="constructorButton" id="Mercedes" type="button" onclick="infoMercedes()">
+            <div class="Placering" > 2</div>
+               <div class="Bil">Mercedes</div>
+               <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Mercedes/_jcr_content/teamCar.transform/3col/image.png" width="60%"  alt="mclaren_bil"></div>
+               <div id="mercedesPonts"class="poäng">Points 148</div>
+               </div>
+
+        <div class ="constructorButton" id="McLaren" type="button" onclick="infoMcLaren()">
+            <div class="Placering" > 3</div>
+            <div class="Bil">McLaren</div>
+            <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/McLaren/jcr:content/teamCar.img.jpg" width="60%" alt="mclaren_bil"></div>
+            <div id="mclarenPoints"class="poäng">Points 69 </div>
+        </div>
+        <div class ="constructorButton" id="Ferarri" type="button" onclick="info()">
+        <div class="Placering" > 4</div>
+        <div class="Bil">Ferarri</div>
+        <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Ferrari/jcr:content/teamCar.img.jpg" width="60%" alt="ferarri_bil"></div>
+        <div id="ferarriPoints"class="poäng">Points 69</div>
+        </div>
+        <div class ="constructorButton" id="AstonMartin" type="button" onclick="info()">
+            <div class="Placering" > 5</div>
+            <div class="Bil">Aston Martin</div>
+            <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Aston-Martin/jcr:content/teamCar.img.jpg" width="60%" alt="Aston-Martin_bil"></div>
+            <div id="astonMartinPoints"class="poäng">Points 69</div>
+    </div>
+    <div class ="constructorButton" id="AlphaTuori" type="button" onclick="info()">
+        <div class="Placering" > 6</div>
+        <div class="Bil">AlphaTauri</div>
+        <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/AlphaTauri/jcr:content/teamCar.img.jpg" width="60%" alt="AlphaTouri_bil"></div>
+        <div id="alphaTouriPoints"class="poäng">Points 69</div>
+</div>
+        <div class ="constructorButton" id="Alpine" type="button" onclick="info()">
+            <div class="Placering" > 7</div>
+            <div class="Bil">Alpine</div>
+            <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Alpine/jcr:content/teamCar.img.jpg" width="60%" alt="Alpine_bil"></div>
+            <div id="alpinePoints"class="poäng">Points 69</div>
+        </div>
+        
+    
+<div class ="constructorButton" id="AlfaRomeo" type="button" onclick="info()">
+    <div class="Placering" > 8</div>
+    <div class="Bil">Alfa Romeo </div>
+    <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Alfa-Romeo-Racing/jcr:content/teamCar.img.jpg" width="60%" alt="Alfa-Romeo-Racing_bil"></div>
+    <div id="alfaRomeoPoints"class="poäng">Points 69</div>
+</div>
+<div class ="constructorButton" id="Williams" type="button" onclick="info()">
+    <div class="Placering" > 9</div>
+    <div class="Bil">Williams</div>
+    <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Williams/jcr:content/teamCar.img.jpg" width="60%" alt="Williams_bil"></div>
+    <div id="williamsPoints"class="poäng">Points 69</div>
+</div>
+<div class ="constructorButton" id="Haas" type="button" onclick="info()">
+    <div class="Placering" > 10</div>
+    <div class="Bil">Haas</div>
+    <div class="Bild"><img src="https://www.formula1.com/content/fom-website/en/teams/Haas-F1-Team/jcr:content/teamCar.img.jpg" width="60%" alt="Haas_bil"></div>
+    <div id="haasPoints"class="poäng">Points 69</div>
+</div>
+
+-->
+    </div>
+
+    <script src="js/constructor.js"></script>
 </body>
 
 </html>

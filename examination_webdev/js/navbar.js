@@ -9,7 +9,7 @@ function addNavBar() {
         
         "Drivers": "index.html",
         "Constructors": "test1.html",
-        "test": "test2.html",
+        "Info": "test2.html",
         
     };
 
