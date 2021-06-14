@@ -17,11 +17,12 @@ function infoMcLaren() {
 }
 
 
+
 function pointSystem() {
     let places = {
         Redbull: {
             bil: "Redbull",
-            bild: "https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png" ,
+            bild: "https://www.formula1.com/content/fom-website/en/teams/Red-Bull-Racing/_jcr_content/teamCar.transform/3col/image.png"  ,
             poäng: 174,
             id:"Redbull",
             placering:1,

@@ -1,3 +1,6 @@
+
+
+
 /*function pointSystem() {
     let places = {
         Verstappen: {

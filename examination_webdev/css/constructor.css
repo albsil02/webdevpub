@@ -22,7 +22,7 @@ margin-left: 27%;
 }
 @keyframes leftright{
   50% {
-    left: 0;
+    left: 0%;
     transform: translateX(-100%)
   }
   100% {
@@ -51,7 +51,7 @@ margin-left: 27%;
     background-color:rgb(231, 231, 240) ;
     transition: background-color 0.2s linear;
     width: 50vW;
-    height:110%;
+    height:100%;
     margin-left: auto;
   margin-right: auto;
    

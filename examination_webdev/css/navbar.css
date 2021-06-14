@@ -20,7 +20,7 @@ body {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    padding-left: 320px;
+    padding-left: 300px;
     
 }
 
@@ -39,15 +39,14 @@ body {
         display: none;
         
     }
-    .navbar a{
-        padding-left: 120px;
-    }
+    
     .navbar a.icon {
         float: right;
         display: block;
         
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .navbar.responsive {
